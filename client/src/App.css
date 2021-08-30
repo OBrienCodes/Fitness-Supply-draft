@@ -1,0 +1,56 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  transition: 0.1s;
+}
+
+nav a:hover,
+nav a:active {
+  color: rgb(124, 124, 124);
+  border-bottom: 2px solid rgb(124, 124, 124);
+}
+
+.card {
+  text-align: center;
+  /* border: grey solid 1px; */
+  width: 360px;
+  height: 360px;
+  background: white;
+  border-radius: 50%;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 10px 12px #353333;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  height: 40mm;
+  width: 40mm
+}
+header {
+  overflow-x: scroll;
+  min-height: 430px;
+  max-height: 430px;
+  max-width: 100%;
+  min-width: 100%;
+  text-align: left;
+  align-content: flex-end;
+  background-size: 100%;
+  background-image: url(https://img.lovepik.com/photo/40138/5520.jpg_wh300.jpg) ;
+  background-position: top;
+  margin-top: 0mm;
+  border-bottom: 10px solid #082b34;
+}
+
